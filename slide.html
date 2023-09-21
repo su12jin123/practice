@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="lib/jquery-3.7.0.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        $(function () {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 5,
+                        spaceBetween: 50,
+                    },
+                },
+            });
+        })
+    </script>
+
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best1.jpg" alt="">
+                    <span>1</span>
+                    <div class="text">
+                        <p>[정관장]<br>
+                            홍삼정 에브리타임 (10ml×30포)</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best2.jpg" alt="">
+                    <span>2</span>
+                    <div class="text">
+                        <p>[우미학]<br>
+                            1++ 한우 프리미엄 선물세트1호<br>
+                            (1.3kg) 보냉백 포장</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best3.jpg" alt="">
+                    <span>3</span>
+                    <div class="text">
+                        <p>[백제원]<br>
+                            솔잎 찐 보리굴비 선물 세트<br>
+                            (100gx8개입)</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best4.jpg" alt="">
+                    <span>4</span>
+                    <div class="text">
+                        <p>[곶감투홈]<br>
+                            곶감에 더함 선물세트 520g</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best1.jpg" alt="">
+                    <span>1</span>
+                    <div class="text">
+                        <p>[정관장]<br>
+                            홍삼정 에브리타임 (10ml×30포)</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best1.jpg" alt="">
+                    <span>1</span>
+                    <div class="text">
+                        <p>[정관장]<br>
+                            홍삼정 에브리타임 (10ml×30포)</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/best1.jpg" alt="">
+                    <span>1</span>
+                    <div class="text">
+                        <p>[정관장]<br>
+                            홍삼정 에브리타임 (10ml×30포)</p>
+                    </div><!-- text end -->
+                </figure>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <style>
+        
+    </style>
+    <!-- Swiper JS -->
+    <script src="lib/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script> $(function () {
+          var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+        })</script>
+
+</head>
+
+<body>
+    <div class="swiper swiper3">
+        <div class="swiper-wrapper list">
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item1.jpg" alt="">
+                </figure>
+                <p>[새벽시장] 깻잎 30장(30g)</p>
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item2.jpg" alt="">
+                </figure>
+                <p>[풀무원] 김밥김 (20g)</p>
+
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item3.jpg" alt="">
+                </figure>
+                <p>[테라오카] 계란에 뿌리는 <br>간장소스 (150ml)</p>
+
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item4.jpg" alt="">
+                </figure>
+                <p>[올리타리아] 포도씨유 500ml</p>
+
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item5.jpg" alt="">
+                </figure>
+                <p>[청정원] 생강&매실 맛술 (410ml)</p>
+
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item6.jpg" alt="">
+                </figure>
+                <p>[굿앤굿] 솔밭 자연방목 유정란 15구 (780g)</p>
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item7.jpg" alt="">
+                </figure>
+                <p>[굿앤굿] 솔밭 자연방목 유정란 15구 (780g)</p>
+            </div><!-- item end -->
+            <div class="swiper-slide item">
+                <figure>
+                    <img src="img/item8.jpg" alt="">
+                </figure>
+                <p>[굿앤굿] 솔밭 자연방목 유정란 15구 (780g)</p>
+            </div><!-- item end -->
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
